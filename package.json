@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://github.com/AlanCienega/abi-extension"
   },
-  "license": "MIT",
+  "license": "LICENSE.txt",
   "contributes": {
     "languages": [
       {
