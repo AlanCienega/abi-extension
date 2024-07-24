@@ -32,14 +32,14 @@
 				},
 				{
 					"name": "keyword.function.abi",
-					"match": "\\b(fin|bloque|repite|ejecuta)\\b"
+					"match": "\\b(fin|actividad|repite|ejecuta)\\b"
 				},
 				{
 					"name": "keyword.operator.abi",
 					"match": "\\b(es|y)\\b"
 				},
 				{
-					"name": "support.type",
+					"name": "support.type.abi",
 					"match": "\\b(verdadero|falso|vacio|algo)\\b"
 				}
 			]
@@ -67,9 +67,13 @@
 		"methods": {
 			"patterns": [
 				{
-					"name": "support.function",
+					"name": "support.function.abi",
 					"begin": "muestra",
 					"end": " "
+				},
+				{
+					"name": "support.function.abi",
+					"match": "\\b[a-z][a-zA-Z0-9]*\\b"
 				}
 			]
 		}
