@@ -73,7 +73,7 @@
 				},
 				{
 					"name": "support.function.abi",
-					"match": "\\b[a-z][a-zA-Z0-9]*\\b"
+					"match": "\\b[a-z]+[A-Z][a-zA-Z0-9]*\\b"
 				}
 			]
 		}
