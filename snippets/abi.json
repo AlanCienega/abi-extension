@@ -1,0 +1,15 @@
+{
+  "Repite": {
+    "prefix": "repite",
+    "body": [
+      "repite: ${1:accion} ${2:numero} veces"
+    ],
+    "description": "Bucle repite:"
+  },
+  "si-sino": {
+    "prefix": "sisino",
+    "body": [
+      "si ${1:condicion}, ${2:accion} si no ${3:accion}"
+    ]
+  }
+}
